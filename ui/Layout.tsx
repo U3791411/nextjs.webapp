@@ -10,7 +10,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
         <meta name="description" content="Front-End Software Development w/ Next.js" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      {children}
+      <main>{children}</main>
     </>
   );
 }
