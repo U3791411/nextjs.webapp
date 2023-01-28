@@ -25,14 +25,17 @@ export default function Navigation() {
           </Link>
 
           <button
-            className="navbar-toggler"
+            className="navbar-toggler collapsed d-flex flex-column justify-content-around"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#navbarNav"
             aria-controls="navbarNav"
             aria-expanded="false"
             aria-label="Toggle navigation"
-          > <span className="navbar-toggler-icon"></span>
+          >
+            <span className="custom-toggler-icon top-bar d-md-none"></span>
+            <span className="custom-toggler-icon mid-bar d-md-none"></span>
+            <span className="custom-toggler-icon low-bar d-md-none"></span>
           </button>
 
           <div className="collapse navbar-collapse" id="navbarNav">
