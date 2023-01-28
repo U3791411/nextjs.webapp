@@ -7,7 +7,7 @@ export default function Navigation() {
 
   return (
     <>
-      <nav className="navbar navbar-dark navbar-expand-md bg-body-tertiary sticky-top bg-black">
+      <nav className="navbar navbar-dark navbar-expand-md bg-body-tertiary sticky-top bg-custom">
         <div className="container-fluid m-3">
 
           <Link
