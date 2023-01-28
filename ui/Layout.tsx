@@ -1,6 +1,19 @@
 import Head from 'next/head';
 
-export const meta = {
+type Meta = {
+  type: string;
+  url: string;
+  author: string;
+  encoding: string;
+  viewport: string;
+  title: string;
+  description: string;
+  lang: string;
+  edge: string;
+  chrome: string;
+};
+
+export const meta: Meta = {
   type: 'Website',
   url: 'http://localhost:3000',
   author: 'U3791411',
