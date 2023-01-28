@@ -22,6 +22,8 @@
     Bitstream Vera Sans Mono, 
     Courier New, 
     monospace;
+  --background-start-rgb: 10, 10, 10;
+  --background-end-rgb: 30, 30, 30;
 }
 
 html,
@@ -36,7 +38,17 @@ a {
 
 * { box-sizing: border-box; }
 
-.logo { @include img_color_inverted }
+.bg-custom {
+  background: linear-gradient(
+    to bottom,
+    rgba(var(--background-start-rgb), 0.6),
+    rgba(var(--background-end-rgb), 0.2)
+    );
+  background-clip: padding-box;
+  backdrop-filter: blur(10px);
+}
+
+.logo { @include img_color_inverted; }
 
 .navbar {
   .navbar-toggler,
