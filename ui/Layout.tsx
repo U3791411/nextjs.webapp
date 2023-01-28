@@ -8,7 +8,6 @@ export default function Layout({ children }: { children: React.ReactNode }) {
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
         <meta name="description" content="Front-End Software Development w/ Next.js" />
-        <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
         <meta name="author" content="U3791411" />
         <meta name="designer" content="U3791411" />
         <meta name="copyright" content="U3791411" />
@@ -18,6 +17,17 @@ export default function Layout({ children }: { children: React.ReactNode }) {
         {/* Apple Web App Meta */}
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+        {/* Internet Explorer Meta */}
+        <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
+        <meta httpEquiv="Page-Enter" content="RevealTrans(Duration=2.0,Transition=2)" />
+        <meta httpEquiv="Page-Exit" content="RevealTrans(Duration=3.0,Transition=12)" />
+        <meta name="mssmarttagspreventparsing" content="true" />
+        <meta httpEquiv="X-UA-Compatible" content="chrome=1" />
+        <meta name="msapplication-starturl" content="http://localhost:3000/blogs" />
+        <meta name="msapplication-window" content="width=800;height=600" />
+        <meta name="msapplication-navbutton-color" content="black" />
+        <meta name="application-name" content="Next.js WebApp" />
+        <meta name="msapplication-tooltip" content="SOFTW∆REDEV's Blog" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>{children}</main>
