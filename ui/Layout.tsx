@@ -9,6 +9,8 @@ export default function Layout({ children }: { children: React.ReactNode }) {
         <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
         <meta name="description" content="Front-End Software Development w/ Next.js" />
         <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="author" content="U3791411" />
+        <meta name="designer" content="U3791411" />
         <meta name="copyright" content="U3791411" />
         <meta name="language" content="en_US" />
         <meta name="coverage" content="Worldwide" />
