@@ -11,6 +11,8 @@ export default function Layout({ children }: { children: React.ReactNode }) {
         <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
         <meta name="copyright" content="U3791411" />
         <meta name="language" content="en_US" />
+        <meta name="coverage" content="Worldwide" />
+        <meta name="distribution" content="Global" />
         {/* Apple Web App Meta */}
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-status-bar-style" content="black" />
