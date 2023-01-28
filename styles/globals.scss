@@ -1,1 +1,44 @@
 @import '~bootstrap/scss/bootstrap';
+
+:root {
+  --local-fonts:
+    -apple-system, 
+    BlinkMacSystemFont, 
+    Segoe UI, 
+    Roboto, 
+    Oxygen,
+    Ubuntu, 
+    Cantarell, 
+    Fira Sans, 
+    Droid Sans, 
+    Helvetica Neue, 
+    sans-serif,
+    Menlo, 
+    Monaco, 
+    Lucida Console, 
+    Liberation Mono, 
+    DejaVu Sans Mono,
+    Bitstream Vera Sans Mono, 
+    Courier New, 
+    monospace;
+}
+
+html,
+body {
+  font-family: var(--local-fonts);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* { box-sizing: border-box; }
+
+@media (prefers-color-scheme: dark) {
+  html { color-scheme: dark; }
+  body {
+    color: white;
+    background: black;
+  }
+}
