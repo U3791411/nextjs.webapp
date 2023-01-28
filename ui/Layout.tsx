@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import Navigation from './Navigation';
 
 type Meta = {
   type: string;
@@ -62,6 +63,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
         <meta name="og:description" content={meta.description} />
         <link rel="icon" href="/favicon.ico" />
       </Head>
+      <Navigation />
       <main>{children}</main>
     </>
   );
