@@ -29,6 +29,12 @@ export default function Layout({ children }: { children: React.ReactNode }) {
         <meta name="application-name" content="Next.js WebApp" />
         <meta name="msapplication-tooltip" content="SOFTW∆REDEV's Blog" />
         <link rel="icon" href="/favicon.ico" />
+        {/* OpenGraph Meta */}
+        <meta name="og:title" content="Next.js WebApp" />
+        <meta name="og:type" content="Website" />
+        <meta name="og:url" content="http://localhost:3000" />
+        <meta name="og:site_name" content="SOFTW∆REDEV.IO" />
+        <meta name="og:description" content="Front-End Software Development w/ Next.js" />
       </Head>
       <main>{children}</main>
     </>
