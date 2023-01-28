@@ -30,7 +30,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
   return (
     <>
       <Head>
-        <title>Next.js WebApp</title>
+        <title>{meta.title}</title>
         <meta charSet={meta.encoding} />
         <meta name="viewport" content={meta.viewport} />
         <meta name="description" content={meta.description} />
