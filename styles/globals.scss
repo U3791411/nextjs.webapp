@@ -38,6 +38,23 @@ a {
 
 .logo { @include img_color_inverted }
 
+.navbar {
+  #navbarNav {
+    .navbar-nav {
+      margin-left: auto;
+      font-size: 12px;
+      @include media-breakpoint-up(sm) { font-size: 1rem; }
+      @include media-breakpoint-down(lg) { text-align: center; }
+      ul {
+        li {
+          margin-bottom: 0;
+          padding-bottom: 0;
+        }
+      }
+    }
+  }
+}
+
 @media (prefers-color-scheme: dark) {
   html { color-scheme: dark; }
   body {
