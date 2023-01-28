@@ -8,6 +8,8 @@ export default function Layout({ children }: { children: React.ReactNode }) {
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
         <meta name="description" content="Front-End Software Development w/ Next.js" />
+        <meta name="copyright" content="U3791411" />
+        <meta name="language" content="en_US" />
         {/* Apple Web App Meta */}
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-status-bar-style" content="black" />
