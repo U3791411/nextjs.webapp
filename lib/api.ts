@@ -35,7 +35,7 @@ export function getSortedByDateData() {
 }
 
 // Get All Post Slug
-export function getAllPostSlug() {
+export function getSlug() {
     const fileNames = fs.readdirSync(markdownDirectory);
     return fileNames.map(fileName => {
         return {
