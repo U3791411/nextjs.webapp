@@ -11,6 +11,9 @@ export default function Footer() {
         <small className="d-block mt-2">
           Copyright &copy; 2023 SOFTW∆REDEV
         </small>
+        <small>
+          Licence | <a href="/licence">MIT</a>
+        </small>
       </footer>
     </>
   );
