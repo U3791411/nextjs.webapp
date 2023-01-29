@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import Navigation from './Navigation';
+import Footer from './Footer';
 
 type Meta = {
   type: string;
@@ -65,6 +66,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
       </Head>
       <Navigation />
       <main>{children}</main>
+      <Footer />
     </>
   );
 }
