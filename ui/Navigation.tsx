@@ -38,6 +38,8 @@ export default function Navigation() {
                   href="/">
                   home
                 </Link>
+              </li>
+              <li className="nav-item">
                 <Link
                   className="nav-link"
                   aria-current="page"
