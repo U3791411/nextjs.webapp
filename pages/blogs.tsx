@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import Link from 'next/link';
 import { GetStaticProps } from 'next';
 import Layout, { meta } from '../ui/Layout';
 import Date from '../ui/Date';
@@ -30,16 +31,22 @@ function BlogsPage({ markdownData }: {
         <div className="m-3">
           <small className="fw-bold">{variable.tag}</small>
           <h1 className="mb-4">{variable.pagetitle}</h1>
-          <ul>
+
+          <ul style={{ listStyle: 'none', margin: 0, padding: 0, }}>
             {markdownData.map(({ slug, title, date }) => (
               <li className="mb-2 pb-3" key={slug}>
-                <h6 className="mb-0">{title}</h6>
-                <small>
-                  <Date dateString={date} />
-                </small>
+                <section>
+                  <Link href={`/blogs/${slug}`}>
+                    <h6 className="mb-0">{title}</h6>
+                  </Link>
+                  <small>
+                    &#x1F5D3; <Date dateString={date} />
+                  </small>
+                </section>
               </li>
             ))}
           </ul>
+
         </div>
       </div>
     </Layout>
