@@ -2,18 +2,25 @@ import Head from 'next/head';
 import Layout, { meta } from '../ui/Layout';
 
 export default function Licence() {
+
   return (
     <Layout>
+
       <Head>
         <title>{meta.title}</title>
       </Head>
+
       <section className="container">
         <div className="m-3">
-          <small className="fw-bold text-uppercase">0p3ns0urce pr0j3ct5</small>
+
+          <small>{meta.tag}</small>
+
           <h1 className="text-uppercase">licence mit</h1>
+
           <small className="d-block mb-3">
             Copyright (c) 2023 U3791411
           </small>
+
           <small className="d-block mb-3">
             Permission is hereby granted, free of charge,
             to any person obtaining a copy of this software
@@ -25,11 +32,13 @@ export default function Licence() {
             the Software is furnished to do so, subject to the
             following conditions:
           </small>
+
           <small className="d-block mb-3">
             The above copyright notice and this permission
             notice shall be included in all copies or
             substantial portions of the Software.
           </small>
+
           <small className="d-block mb-3">
             THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY
             OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT
@@ -41,8 +50,10 @@ export default function Licence() {
             IN CONNECTION WITH THE SOFTWARE OR THE USE OR
             OTHER DEALINGS IN THE SOFTWARE.
           </small>
+
         </div>
       </section>
+
     </Layout>
   );
 }
