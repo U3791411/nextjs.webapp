@@ -38,6 +38,12 @@ export default function Navigation() {
                   href="/">
                   home
                 </Link>
+                <Link
+                  className="nav-link"
+                  aria-current="page"
+                  href="/blogs">
+                  blogs
+                </Link>
               </li>
             </ul>
           </div>

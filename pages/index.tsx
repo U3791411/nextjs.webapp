@@ -21,8 +21,8 @@ function HomePage() {
 
           <a
             className="btn btn-outline-light text-capitalize fw-bold"
-            href="/"
-          > coming soon
+            href="/blogs"
+          > read more
           </a>
 
           <div className="d-flex justify-content-end mt-5">
