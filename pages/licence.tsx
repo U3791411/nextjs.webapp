@@ -2,7 +2,6 @@ import Head from 'next/head';
 import Layout, { meta } from '../ui/Layout';
 
 export default function Licence() {
-
   return (
     <Layout>
 
