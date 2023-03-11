@@ -13,6 +13,7 @@ type Meta = {
   lang: string;
   edge: string;
   chrome: string;
+  tag: string;
 };
 
 export const meta: Meta = {
@@ -26,6 +27,7 @@ export const meta: Meta = {
   lang: 'en_US',
   edge: 'IE=edge',
   chrome: 'chrome=1',
+  tag: '0P3NS0URC3 PR0J3CT5',
 };
 
 export default function Layout({ children }: { children: React.ReactNode }) {
